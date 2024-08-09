@@ -20,24 +20,14 @@ gvfs
 gvfs-mtp
 hypridle
 hyprlock
-imagemagick
-inxi 
 jq
-kitty
-kvantum
-nano  
+kitty  
 network-manager-applet 
 pamixer 
 pavucontrol
 pipewire-alsa 
 playerctl
-polkit-gnome
-python-requests
-python-pyquery
-pyprland 
-qt5ct
-qt6ct
-qt6-svg
+polkit-gnome 
 rofi-wayland
 slurp 
 swappy 
@@ -56,19 +46,9 @@ yad
 # the following packages can be deleted. however, dotfiles may not work properly
 hypr_package_2=(
 brightnessctl 
-btop
 cava
-eog
 fastfetch
-gnome-system-monitor
-mousepad 
-mpv
-mpv-mpris 
-nvtop
 nwg-look
-pacman-contrib
-vim
-yt-dlp
 )
 
 # List of packages to uninstall as it conflicts with swaync or causing swaync to not function properly
