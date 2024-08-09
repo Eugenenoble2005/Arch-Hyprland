@@ -18,6 +18,7 @@ curl
 grim 
 gvfs 
 gvfs-mtp
+stow
 hypridle
 hyprlock
 jq

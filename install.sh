@@ -236,6 +236,14 @@ if [ "$dots" == "Y" ]; then
 
 fi
 
+#install my dotfiles
+mkdir ~/.dotfiles && git clone https://www.github.com/eugenenoble2005/dotfiles.git ~/.dotfiles
+cd ~/.dotfiles
+#stow with adopt incase of conflicts
+stow --adopt .
+git reset --hard
+
+
 
 printf "\n${OK} Yey! Installation Completed.\n"
 printf "\n"
