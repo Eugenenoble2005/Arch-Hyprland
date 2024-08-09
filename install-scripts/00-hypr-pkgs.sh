@@ -22,7 +22,8 @@ stow
 hypridle
 hyprlock
 jq
-kitty  
+kitty
+zoxide
 network-manager-applet 
 pamixer 
 pavucontrol
@@ -38,16 +39,15 @@ wallust-git
 waybar
 wget
 wl-clipboard
-wlogout
 xdg-user-dirs
 xdg-utils 
 yad
+hyprshade
 )
 
 # the following packages can be deleted. however, dotfiles may not work properly
 hypr_package_2=(
 brightnessctl 
-cava
 fastfetch
 nwg-look
 )
