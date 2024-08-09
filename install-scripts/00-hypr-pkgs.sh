@@ -29,7 +29,8 @@ pamixer
 pavucontrol
 pipewire-alsa 
 playerctl
-polkit-gnome 
+polkit-gnome
+nitch
 rofi-wayland
 slurp 
 swappy 
