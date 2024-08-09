@@ -237,12 +237,17 @@ if [ "$dots" == "Y" ]; then
 fi
 
 #install my dotfiles
+#remove conflicts
+rm -rf ~/.themes ~/.icons ~/Pictures
 mkdir ~/.dotfiles && git clone https://www.github.com/eugenenoble2005/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 #stow with adopt incase of conflicts
 stow --adopt .
 git reset --hard
 
+#configure sddm
+sudo rm -rf /usr/share/sddm/themes/simple-sddm-2/ 
+sudo ln -s ~/simple-sddm-2 /usr/share/sddm/themes/simple-sddm-2
 
 
 printf "\n${OK} Yey! Installation Completed.\n"
