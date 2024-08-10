@@ -246,9 +246,9 @@ cd ~/.dotfiles
 stow --adopt .
 git reset --hard
 
-#configure sddm
+#configure sddm, SDDM themes unfortunatley cannot work via symlinks
 sudo rm -rf /usr/share/sddm/themes/simple-sddm-2/ 
-sudo ln -s ~/simple-sddm-2 /usr/share/sddm/themes/simple-sddm-2
+sudo cp -r ~/.dotfiles/simple-sddm-2 /usr/share/sddm/themes
 
 
 printf "\n${OK} Yey! Installation Completed.\n"

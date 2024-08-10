@@ -44,6 +44,7 @@ xdg-user-dirs
 xdg-utils 
 yad
 hyprshade
+libnotify
 )
 
 # the following packages can be deleted. however, dotfiles may not work properly
