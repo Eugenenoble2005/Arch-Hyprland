@@ -238,6 +238,7 @@ fi
 
 #install my dotfiles
 #remove conflicts
+echo "DOTS ARE BEING INSTALLED"
 rm -rf ~/.themes ~/.icons ~/Pictures
 mkdir ~/.dotfiles && git clone https://www.github.com/eugenenoble2005/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
