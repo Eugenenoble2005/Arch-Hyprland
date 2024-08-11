@@ -246,6 +246,10 @@ cd ~/.dotfiles
 stow --adopt .
 git reset --hard
 
+#sddm config
+sudo cp -r ~/.dotfiles/simple-sddm-2 /usr/share/sddm/themes
+sudo chown -R root /usr/share/sddm/themes/simple-sddm-2
+
 printf "\n${OK} Yey! Installation Completed.\n"
 printf "\n"
 sleep 2
