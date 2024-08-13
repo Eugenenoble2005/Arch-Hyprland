@@ -22,7 +22,7 @@ stow
 hypridle
 hyprlock
 jq
-kitty
+alacritty
 zoxide
 network-manager-applet 
 pamixer 
@@ -35,7 +35,7 @@ rofi-wayland
 slurp 
 swappy 
 swaync 
-swww
+swww #swww-git is much more preferable but takes a while to build. Will insrall that after the installation
 wallust-git 
 waybar
 wget
