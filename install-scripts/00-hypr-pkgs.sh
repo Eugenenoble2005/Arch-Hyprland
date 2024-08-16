@@ -12,7 +12,6 @@ Extra=(
 )
 
 hypr_package=( 
-aylurs-gtk-shell
 cliphist
 curl 
 grim 
@@ -22,10 +21,11 @@ stow
 hypridle
 hyprlock
 jq
-alacritty
+kitty
 zoxide
 network-manager-applet 
-pamixer 
+pamixer
+ttf-jetbrains-mono
 pavucontrol
 pipewire-alsa 
 playerctl
@@ -36,7 +36,6 @@ slurp
 swappy 
 swaync 
 swww #swww-git is much more preferable but takes a while to build. Will insrall that after the installation
-wallust-git 
 waybar
 wget
 wl-clipboard
