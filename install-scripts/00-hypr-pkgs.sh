@@ -42,6 +42,7 @@ wl-clipboard
 xdg-user-dirs
 xdg-utils 
 yad
+ruby
 hyprshade
 libnotify
 )

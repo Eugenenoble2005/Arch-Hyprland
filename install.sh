@@ -250,6 +250,11 @@ git reset --hard
 sudo cp -r ~/.dotfiles/simple-sddm-2 /usr/share/sddm/themes
 sudo chown -R root /usr/share/sddm/themes/simple-sddm-2
 
+#install powerlevel10k 
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
+
+
 printf "\n${OK} Yey! Installation Completed.\n"
 printf "\n"
 sleep 2
